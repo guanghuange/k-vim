@@ -141,6 +141,7 @@ Plug 'altercation/vim-colors-solarized'
 " 主题 molokai
 Plug 'tomasr/molokai'
 
+Plug 'rking/ag.vim'
 
 " nav
 " nerdtree nerdtreetabs
@@ -171,6 +172,7 @@ if count(g:bundle_groups, 'markdown')
     " https://github.com/suan/vim-instant-markdown
     " npm -g install instant-markdown-d
     " Plug 'suan/vim-instant-markdown'
+    Plug 'iamcco/markdown-preview.vim'
     " let g:instant_markdown_slow = 1
     " let g:instant_markdown_autostart = 0
     " map <F12> :InstantMarkdownPreview<CR>
